@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {
-    printf("To find the average of three subjects marks \n");
+    
     printf("Enter the marks of the three subjects : ");
     float m1,m2,m3;
     scanf("%f %f %f",&m1,&m2,&m3);
@@ -28,8 +28,10 @@ int main ()
                 else{
                     printf("The student is in fail. \n");
                 }
-            }
+                return 0;
+            }   
         }
     }
     return 0;
+
 }   
