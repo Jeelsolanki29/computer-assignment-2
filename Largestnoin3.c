@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-   printf("To find the largest and Smallest of three numbers:\n");
    printf("Enter three numbers: ");
    int n1,n2,n3;
    scanf("%d %d %d",&n1,&n2,&n3);
@@ -29,4 +28,5 @@ int main()
        }
    }
    return 0;
+
 }
