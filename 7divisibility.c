@@ -2,7 +2,6 @@
 int main()
 {
     int num;
-    printf("To check the divisibility of the given number by 7, enter the number: \n");
     printf("Enter the number: ");
     int n;
     scanf("%d", &n);
@@ -16,3 +15,4 @@ int main()
     }
     
 }
+
