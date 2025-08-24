@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("To find the net salary for the given two condition \n");
     printf("Enter the gross sales : ");
     int g,d,n;
     scanf("%d %d",&g,&d);
@@ -23,4 +22,5 @@ int main()
         }
     }
     return 0;
+
 }
