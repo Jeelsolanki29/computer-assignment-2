@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("To find the net salary for the given two condition ");
     printf("Enter the gross salary : ");
     float gross,a,d,s;
     scanf("%f %f %f",&gross,&a,&d);
@@ -22,4 +21,5 @@ int main()
         printf("Enter valid salary");
      }
     }
+
 }
